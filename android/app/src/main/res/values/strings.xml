@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Blessed Sacrament NFC Check-In</string>
+    <string name="parish_name">Blessed Sacrament Catholic Parish</string>
+    <string name="parish_sub">Buru Phase III, Mumias Road, Nairobi</string>
+    <string name="login_title">Gate Operator Sign In</string>
+    <string name="login_sub">Sign in with authorized parish operator credentials</string>
+    <string name="nfc_ready">READY TO SCAN</string>
+    <string name="nfc_instruction">Tap parish NFC card on the back of the phone</string>
+    <string name="nfc_processing">CHECKING IN…</string>
+    <string name="nfc_success">✓ CHECKED IN</string>
+    <string name="nfc_duplicate">ALREADY CHECKED IN</string>
+    <string name="nfc_revoked">CARD REVOKED</string>
+    <string name="nfc_lost">CARD MARKED LOST</string>
+    <string name="nfc_unregistered">CARD NOT REGISTERED</string>
+    <string name="nfc_closed">CHECK-IN CLOSED</string>
+    <string name="nfc_unauthorized_device">DEVICE NOT AUTHORIZED</string>
+    <string name="nfc_saved_offline">SAVED OFFLINE</string>
+    <string name="nfc_disabled_msg">NFC is disabled. Enable NFC in device settings to scan attendance cards.</string>
+    <string name="nfc_unsupported_msg">This device does not support NFC.</string>
+    <string name="open_nfc_settings">Enable NFC in Settings</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blessed Sacrament Parish Visual Identity -->
+    <color name="marian_burgundy">#801B2E</color>
+    <color name="deep_claret">#5C1321</color>
+    <color name="church_gold">#D4AF37</color>
+    <color name="gold_light">#F3E5AB</color>
+    <color name="warm_parchment">#FDFBF7</color>
+    <color name="emerald_verified">#10B981</color>
+    <color name="amber_warning">#F59E0B</color>
+    <color name="ruby_error">#EF4444</color>
+    <color name="surface_dark">#18181B</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="text_primary">#1C1917</color>
+    <color name="text_secondary">#78716C</color>
+</resources>

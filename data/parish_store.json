@@ -1,0 +1,2431 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "email": "admin@example.test",
+      "role": "SUPER_ADMIN",
+      "firstName": "Shelmith",
+      "lastName": "Wambui",
+      "phone": "+254 712 345 678",
+      "isActive": true,
+      "createdAt": "2026-09-01T08:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z",
+      "lastLoginAt": "2026-09-16T09:02:39.404Z",
+      "passwordHash": "scrypt:1f19e57733fb0c34a7438ae79e65d096:130a845a96732f479cef0510f990a24e8484703b3d5a5ecc1f3d4ed2909e6851aab381ac0c0ec8ceb17e797dbd8728cac4c88a5404511f21d1acc6e1bc8a82d7"
+    },
+    {
+      "id": "usr-event-admin-1",
+      "email": "eventadmin@example.test",
+      "role": "EVENT_ADMIN",
+      "firstName": "Fr. Dominic",
+      "lastName": "Mwangi",
+      "phone": "+254 722 987 654",
+      "isActive": true,
+      "createdAt": "2026-09-01T08:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z",
+      "lastLoginAt": "2026-09-16T09:02:39.404Z",
+      "passwordHash": "scrypt:207288b1fcc959ce5dde03c3168a29c3:9c3585281266575a6f307b44d8cac316912d874f8accb4220a33307006ff89d83339007bdf7baa82d53ba034cb5929776afabfa5ad2a7cd2b5907ba8c124c871"
+    },
+    {
+      "id": "usr-operator-1",
+      "email": "operator@example.test",
+      "role": "CHECK_IN_OPERATOR",
+      "firstName": "Brian",
+      "lastName": "Otieno",
+      "phone": "+254 733 112 233",
+      "isActive": true,
+      "createdAt": "2026-09-01T08:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z",
+      "lastLoginAt": "2026-09-21T07:02:00.349Z",
+      "passwordHash": "scrypt:9ecd367ae62f9a0a6e3a4a988f3ba73c:696c75f48fcae89dafcf6d36526199e59c9797708ac14a7950dfc4301fae23286386279f72a5870e76f130f13637214e0f673d8585bdc3b1e9b83fdfa4ee04aa"
+    },
+    {
+      "id": "usr-participant-1",
+      "email": "shelwangui23@gmail.com",
+      "role": "PARTICIPANT",
+      "firstName": "Shelmith",
+      "lastName": "Wambui",
+      "phone": "+254 712 345 678",
+      "isActive": true,
+      "createdAt": "2026-09-02T10:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z",
+      "passwordHash": "scrypt:7a636d1d46a047fe1a156149b709d68f:f74c10dccd0d4363ce13517b489e069d9ddc6e0d057d2535721c7b3a321809e173caa4f985895099d1d7f497c81782e66b19d33a2495ccccb19f762a27647564",
+      "lastLoginAt": "2026-09-21T06:37:22.087Z"
+    }
+  ],
+  "participants": [
+    {
+      "id": "part-f4c114e8-54e2-431b-96fe-e2f136c97baa",
+      "participantNumber": "BSC-000028",
+      "firstName": "Joseph",
+      "lastName": "Kamau",
+      "phone": "+254 715796140",
+      "parishGroup": "None",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-21T07:02:00.383Z",
+      "updatedAt": "2026-09-21T07:02:00.383Z"
+    },
+    {
+      "id": "part-6a509409-ad5c-462a-b30f-85a14a73c309",
+      "participantNumber": "BSC-000027",
+      "firstName": "Teresa",
+      "lastName": "Ndung'u",
+      "phone": "+254 754733430",
+      "parishGroup": "None",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-21T07:02:00.377Z",
+      "updatedAt": "2026-09-21T07:02:00.377Z"
+    },
+    {
+      "id": "part-30d62fbd-0f99-4370-a576-257decf2c2bb",
+      "participantNumber": "BSC-000026",
+      "firstName": "Joseph",
+      "lastName": "Kamau",
+      "phone": "+254 710752364",
+      "parishGroup": "None",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-21T07:01:08.119Z",
+      "updatedAt": "2026-09-21T07:01:08.119Z"
+    },
+    {
+      "id": "part-52027046-ca08-4830-bfc7-d8793bea54aa",
+      "participantNumber": "BSC-000025",
+      "firstName": "Teresa",
+      "lastName": "Ndung'u",
+      "phone": "+254 715428692",
+      "parishGroup": "None",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-21T07:01:08.113Z",
+      "updatedAt": "2026-09-21T07:01:08.113Z"
+    },
+    {
+      "id": "part-d65fccf9-9cc2-4ba8-a75f-6c5c11982c87",
+      "participantNumber": "BSC-000024",
+      "firstName": "Joseph",
+      "lastName": "Kamau",
+      "phone": "+254 758924775",
+      "parishGroup": "None",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-21T07:01:01.548Z",
+      "updatedAt": "2026-09-21T07:01:01.548Z"
+    },
+    {
+      "id": "part-f93c0fa8-566a-422a-b0ee-5f53e6a1fb81",
+      "participantNumber": "BSC-000023",
+      "firstName": "Teresa",
+      "lastName": "Ndung'u",
+      "phone": "+254 740813436",
+      "parishGroup": "None",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-21T07:01:01.541Z",
+      "updatedAt": "2026-09-21T07:01:01.541Z"
+    },
+    {
+      "id": "part-f628cd53-ccea-4923-8064-e53713c6b43d",
+      "participantNumber": "BSC-000022",
+      "firstName": "TestOffline",
+      "lastName": "SyncQueue",
+      "phone": "+254 721020596",
+      "parishGroup": "None",
+      "isParishMember": false,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-21T06:37:22.167Z",
+      "updatedAt": "2026-09-21T06:37:22.167Z"
+    },
+    {
+      "id": "part-c724cd54-1785-46e3-8ce7-9104e67c63d3",
+      "participantNumber": "BSC-000021",
+      "firstName": "TestOnline",
+      "lastName": "Idempotency",
+      "phone": "+254 768873629",
+      "parishGroup": "None",
+      "isParishMember": false,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-21T06:37:22.111Z",
+      "updatedAt": "2026-09-21T06:37:22.111Z"
+    },
+    {
+      "id": "part-001",
+      "userId": "usr-participant-1",
+      "participantNumber": "BSC-000124",
+      "firstName": "Shelmith",
+      "lastName": "Wambui",
+      "phone": "+254 712 345 678",
+      "email": "shelwangui23@gmail.com",
+      "parishGroup": "YSC",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-002",
+      "participantNumber": "BSC-000125",
+      "firstName": "Brian",
+      "lastName": "Mwangi",
+      "phone": "+254 721 112 201",
+      "email": "brian.m@example.test",
+      "parishGroup": "Choir",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:05:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-003",
+      "participantNumber": "BSC-000126",
+      "firstName": "Mercy",
+      "lastName": "Njeri",
+      "phone": "+254 722 223 302",
+      "email": "mercy.njeri@example.test",
+      "parishGroup": "MYM",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:10:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-004",
+      "participantNumber": "BSC-000127",
+      "firstName": "John",
+      "lastName": "Kamau",
+      "phone": "+254 723 334 403",
+      "email": "john.k@example.test",
+      "parishGroup": "Altar Servers",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:15:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-005",
+      "participantNumber": "BSC-000128",
+      "firstName": "Francis",
+      "lastName": "Ochieng",
+      "phone": "+254 724 445 504",
+      "email": "francis.o@example.test",
+      "parishGroup": "CMA",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:20:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-006",
+      "participantNumber": "BSC-000129",
+      "firstName": "Agnes",
+      "lastName": "Muthoni",
+      "phone": "+254 725 556 605",
+      "email": "agnes.m@example.test",
+      "parishGroup": "PMC",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:25:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-007",
+      "participantNumber": "BSC-000130",
+      "firstName": "Patrick",
+      "lastName": "Mutua",
+      "phone": "+254 726 667 706",
+      "email": "patrick.m@example.test",
+      "parishGroup": "Charismatic Renewal",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-008",
+      "participantNumber": "BSC-000131",
+      "firstName": "Faith",
+      "lastName": "Wanjiku",
+      "phone": "+254 727 778 807",
+      "email": "faith.w@example.test",
+      "parishGroup": "Liturgical Committee",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:35:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-009",
+      "participantNumber": "BSC-000132",
+      "firstName": "Joseph",
+      "lastName": "Kiprop",
+      "phone": "+254 728 889 908",
+      "email": "joseph.k@example.test",
+      "parishGroup": "YSC",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:40:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-010",
+      "participantNumber": "BSC-000133",
+      "firstName": "Grace",
+      "lastName": "Achieng",
+      "phone": "+254 729 990 009",
+      "email": "grace.a@example.test",
+      "parishGroup": "Choir",
+      "isParishMember": false,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:45:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-011",
+      "participantNumber": "BSC-000134",
+      "firstName": "David",
+      "lastName": "Kariuki",
+      "phone": "+254 730 001 110",
+      "email": "david.k@example.test",
+      "parishGroup": "CMA",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:50:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-012",
+      "participantNumber": "BSC-000135",
+      "firstName": "Esther",
+      "lastName": "Nduta",
+      "phone": "+254 731 112 211",
+      "email": "esther.n@example.test",
+      "parishGroup": "MYM",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T10:55:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-013",
+      "participantNumber": "BSC-000136",
+      "firstName": "James",
+      "lastName": "Mwiti",
+      "phone": "+254 732 223 312",
+      "email": "james.m@example.test",
+      "parishGroup": "Altar Servers",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T11:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-014",
+      "participantNumber": "BSC-000137",
+      "firstName": "Mary",
+      "lastName": "Wambui",
+      "phone": "+254 733 334 413",
+      "email": "mary.w@example.test",
+      "parishGroup": "PMC",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T11:05:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-015",
+      "participantNumber": "BSC-000138",
+      "firstName": "Peter",
+      "lastName": "Otieno",
+      "phone": "+254 734 445 514",
+      "email": "peter.o@example.test",
+      "parishGroup": "Charismatic Renewal",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T11:10:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-016",
+      "participantNumber": "BSC-000139",
+      "firstName": "Rose",
+      "lastName": "Nyambura",
+      "phone": "+254 735 556 615",
+      "email": "rose.n@example.test",
+      "parishGroup": "Choir",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T11:15:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-017",
+      "participantNumber": "BSC-000140",
+      "firstName": "Daniel",
+      "lastName": "Kiprotich",
+      "phone": "+254 736 667 716",
+      "email": "daniel.k@example.test",
+      "parishGroup": "YSC",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T11:20:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-018",
+      "participantNumber": "BSC-000141",
+      "firstName": "Lucy",
+      "lastName": "Muthoni",
+      "phone": "+254 737 778 817",
+      "email": "lucy.m@example.test",
+      "parishGroup": "Liturgical Committee",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T11:25:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-019",
+      "participantNumber": "BSC-000142",
+      "firstName": "Samuel",
+      "lastName": "Kimani",
+      "phone": "+254 738 889 918",
+      "email": "samuel.k@example.test",
+      "parishGroup": "CMA",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T11:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "part-020",
+      "participantNumber": "BSC-000143",
+      "firstName": "Beatrice",
+      "lastName": "Chebet",
+      "phone": "+254 739 990 019",
+      "email": "beatrice.c@example.test",
+      "parishGroup": "YSC",
+      "isParishMember": true,
+      "status": "ACTIVE",
+      "createdAt": "2026-09-02T11:35:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    }
+  ],
+  "nfcCards": [
+    {
+      "id": "card-16f93f41-6796-4240-8cd5-576cbdf7b77a",
+      "participantId": "part-f4c114e8-54e2-431b-96fe-e2f136c97baa",
+      "cardNumber": "BSC-CARD-000032",
+      "tokenHash": "d5527203e821b87aeb533c89364e87ce8e9a8fe13112525902efd01cf022c964",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974120386_beta",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:02:00.399Z",
+      "createdAt": "2026-09-21T07:02:00.399Z",
+      "updatedAt": "2026-09-21T07:02:00.399Z"
+    },
+    {
+      "id": "card-6969ed39-0843-4e92-8496-d587d1c82cab",
+      "participantId": "part-6a509409-ad5c-462a-b30f-85a14a73c309",
+      "cardNumber": "BSC-CARD-000031",
+      "tokenHash": "9bab1a726760d3f2d05929bed19f6a15735e76b9420af03af9eb1628eb147e69",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974120386_alpha",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:02:00.390Z",
+      "createdAt": "2026-09-21T07:02:00.390Z",
+      "updatedAt": "2026-09-21T07:02:00.390Z"
+    },
+    {
+      "id": "card-9a0ad1a7-490c-4261-9f2d-9ef1f68eb891",
+      "participantId": "part-30d62fbd-0f99-4370-a576-257decf2c2bb",
+      "cardNumber": "BSC-CARD-000030",
+      "tokenHash": "04a330126c088f357962646fc040ccd659c00b9a4b7d84c62ccdde64f8b37def",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974068122_beta",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:01:08.133Z",
+      "createdAt": "2026-09-21T07:01:08.133Z",
+      "updatedAt": "2026-09-21T07:01:08.133Z"
+    },
+    {
+      "id": "card-140d5879-6976-469d-a728-54d6517011c6",
+      "participantId": "part-52027046-ca08-4830-bfc7-d8793bea54aa",
+      "cardNumber": "BSC-CARD-000029",
+      "tokenHash": "4285e547538d755b98e832eb72cf2b2378b7e3eadd45f7cfe875a9e98e4b129d",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974068122_alpha",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:01:08.125Z",
+      "createdAt": "2026-09-21T07:01:08.125Z",
+      "updatedAt": "2026-09-21T07:01:08.125Z"
+    },
+    {
+      "id": "card-2ee9fdb0-a811-41bc-81f6-1ba1585a3341",
+      "participantId": "part-d65fccf9-9cc2-4ba8-a75f-6c5c11982c87",
+      "cardNumber": "BSC-CARD-000028",
+      "tokenHash": "13847b5815d866278c0e29d3957e173d082ecf8a7b830e2a8d40517e3751c2b3",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974061552_beta",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:01:01.566Z",
+      "createdAt": "2026-09-21T07:01:01.566Z",
+      "updatedAt": "2026-09-21T07:01:01.566Z"
+    },
+    {
+      "id": "card-aec6647c-8288-4a2b-a7f6-7b1d5fd7628e",
+      "participantId": "part-f93c0fa8-566a-422a-b0ee-5f53e6a1fb81",
+      "cardNumber": "BSC-CARD-000027",
+      "tokenHash": "3c92fae47472098b11e11093de8db8402e22b98d01c745a5b0f09134d49aa535",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974061552_alpha",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:01:01.556Z",
+      "createdAt": "2026-09-21T07:01:01.556Z",
+      "updatedAt": "2026-09-21T07:01:01.556Z"
+    },
+    {
+      "id": "card-786290ad-471d-46a6-8fc5-5bfe552d8f0f",
+      "participantId": "part-002",
+      "cardNumber": "BSC-CARD-000026",
+      "tokenHash": "24d0e7897688ebeea9d384590a24d928ef0d4838e3e62d11105b85370bb7bd3e",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974032458_beta",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:00:32.468Z",
+      "createdAt": "2026-09-21T07:00:32.468Z",
+      "updatedAt": "2026-09-21T07:00:32.468Z"
+    },
+    {
+      "id": "card-6d59fed7-cc08-4548-a6cb-5d50d006e97b",
+      "participantId": "part-001",
+      "cardNumber": "BSC-CARD-000025",
+      "tokenHash": "f713a77cfa100af62e0046a96adb27a63e9216335a123a0f024da349e3250d2c",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974032458_alpha",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:00:32.462Z",
+      "createdAt": "2026-09-21T07:00:32.462Z",
+      "updatedAt": "2026-09-21T07:00:32.462Z"
+    },
+    {
+      "id": "card-a892ba73-2777-42fd-afb9-2d2971b1e0b4",
+      "participantId": "part-002",
+      "cardNumber": "BSC-CARD-000024",
+      "tokenHash": "8d7f5dfd62adc7923870b7ea4db789f7039d12f70b74f806b3996e43f77133fb",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974023084_beta",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:00:23.096Z",
+      "createdAt": "2026-09-21T07:00:23.096Z",
+      "updatedAt": "2026-09-21T07:00:23.096Z"
+    },
+    {
+      "id": "card-948bde0c-b105-4131-9e99-163eb6e21b93",
+      "participantId": "part-001",
+      "cardNumber": "BSC-CARD-000023",
+      "tokenHash": "369086cd4c58c4ff54ff310e997eacf9a766206c0fc17e539a6b165f54422611",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974023084_alpha",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:00:23.089Z",
+      "createdAt": "2026-09-21T07:00:23.089Z",
+      "updatedAt": "2026-09-21T07:00:23.089Z"
+    },
+    {
+      "id": "card-c15bcadc-4a85-4291-8f83-245ac94248a1",
+      "participantId": "part-002",
+      "cardNumber": "BSC-CARD-000022",
+      "tokenHash": "d18f995a3f5c2f8e94d1bca5f43995f014922478d496263dce77eba8f2de88bf",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974015001_beta",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:00:15.011Z",
+      "createdAt": "2026-09-21T07:00:15.011Z",
+      "updatedAt": "2026-09-21T07:00:15.011Z"
+    },
+    {
+      "id": "card-1c527ad9-33cf-434e-9d57-4987cf18824d",
+      "participantId": "part-001",
+      "cardNumber": "BSC-CARD-000021",
+      "tokenHash": "49b23725502a7d4c79a7c7b23f5703a180c2e47517062347809a898a1886445c",
+      "rawTokenPreview": "BSCNFC:v1:phys_tap_1789974015001_alpha",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T07:00:15.006Z",
+      "createdAt": "2026-09-21T07:00:15.006Z",
+      "updatedAt": "2026-09-21T07:00:15.006Z"
+    },
+    {
+      "id": "card-668f7652-8140-4f82-862d-665a4c7532f3",
+      "participantId": "part-f628cd53-ccea-4923-8064-e53713c6b43d",
+      "cardNumber": "BSC-CARD-000020",
+      "tokenHash": "445d88c28c689fbd4ecd5a89c3851b159fc818f54f58c35b1a136d1244cd7e47",
+      "rawTokenPreview": "BSCNFC:v1:offline_1789972642173",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T06:37:22.175Z",
+      "createdAt": "2026-09-21T06:37:22.175Z",
+      "updatedAt": "2026-09-21T06:37:22.175Z"
+    },
+    {
+      "id": "card-efd1c5e7-e663-48d6-b45e-c94b5fa9cb8a",
+      "participantId": "part-c724cd54-1785-46e3-8ce7-9104e67c63d3",
+      "cardNumber": "BSC-CARD-000019",
+      "tokenHash": "bc08581c70a6d1d6e8ba6e66c7d6350c3ee6830d006d6de6c1ba269fc7b10322",
+      "rawTokenPreview": "BSCNFC:v1:phase2a_test_1789972642121",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T06:37:22.125Z",
+      "createdAt": "2026-09-21T06:37:22.125Z",
+      "updatedAt": "2026-09-21T06:37:22.125Z"
+    },
+    {
+      "id": "card-d7ad996a-7ede-4703-aa1f-415f98cb9175",
+      "participantId": "part-014",
+      "cardNumber": "BSC-CARD-000018",
+      "tokenHash": "d3e7d08ee8352611a6689d7aee5e6fe43f4746391c538e377e013e0ac5b289f3",
+      "rawTokenPreview": "BSCNFC:offline:sync_test_1789972559863",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T06:35:59.867Z",
+      "createdAt": "2026-09-21T06:35:59.867Z",
+      "updatedAt": "2026-09-21T06:35:59.867Z"
+    },
+    {
+      "id": "card-ed3d7030-591f-4e99-9588-d4133747864a",
+      "participantId": "part-013",
+      "cardNumber": "BSC-CARD-000017",
+      "tokenHash": "8922fedcba4a0dfb741a3a7bbeb0afe03737134e1e5d17a0587dadf25cdacd60",
+      "rawTokenPreview": "BSCNFC:v1:offline_1789972552189",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T06:35:52.192Z",
+      "createdAt": "2026-09-21T06:35:52.192Z",
+      "updatedAt": "2026-09-21T06:35:52.192Z"
+    },
+    {
+      "id": "card-a51435c2-dfe1-44c6-b776-4d7ac03fb820",
+      "participantId": "part-012",
+      "cardNumber": "BSC-CARD-000016",
+      "tokenHash": "d593d9f41e086deb80594a8397f9dd5fb9fbc6d1dae9618421adcc8abcf70b85",
+      "rawTokenPreview": "BSCNFC:v1:phase2a_test_1789972552138",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T06:35:52.143Z",
+      "createdAt": "2026-09-21T06:35:52.143Z",
+      "updatedAt": "2026-09-21T06:35:52.143Z"
+    },
+    {
+      "id": "card-1551578d-262b-4c7b-a285-ebede6af724d",
+      "participantId": "part-011",
+      "cardNumber": "BSC-CARD-000015",
+      "tokenHash": "9d90a2a11fd89d7c0639b399952aed2b51f34bcb945db73c82222e4ca06b92ab",
+      "rawTokenPreview": "BSCNFC:v1:test_part11_1789972437734",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T06:33:57.738Z",
+      "createdAt": "2026-09-21T06:33:57.738Z",
+      "updatedAt": "2026-09-21T06:33:57.738Z"
+    },
+    {
+      "id": "card-30729c3a-05d0-4283-8cea-e85bb5d7216f",
+      "participantId": "part-010",
+      "cardNumber": "BSC-CARD-000014",
+      "tokenHash": "a3d1a27225e1ace786b605d3eff614f50f8c6528fb4007c79b5c71f71f806a23",
+      "rawTokenPreview": "BSCNFC:v1:test_event01_1789972430683",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T06:33:50.688Z",
+      "createdAt": "2026-09-21T06:33:50.688Z",
+      "updatedAt": "2026-09-21T06:33:50.688Z"
+    },
+    {
+      "id": "card-64c1cb5d-d0c5-47c2-a87c-5e244c5a6ef6",
+      "participantId": "part-010",
+      "cardNumber": "BSC-CARD-000013",
+      "tokenHash": "66288a4eb2a0701e3b982320fc5b00ca8802edeb5a2aa802b02e7fab1bcff244",
+      "rawTokenPreview": "BSCNFC:v1:test_1789972424342",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-21T06:33:44.347Z",
+      "createdAt": "2026-09-21T06:33:44.347Z",
+      "updatedAt": "2026-09-21T06:33:44.347Z"
+    },
+    {
+      "id": "card-49356f5b-4a17-4c29-af47-314a0b4bf175",
+      "participantId": "part-010",
+      "cardNumber": "BSC-CARD-000012",
+      "tokenHash": "435bf26f52ab9e77af68f58e83dbd2d7d5ed814f4d2f4b2c8cf40e90d4f1db16",
+      "rawTokenPreview": "BSCNFC:v1:test_idem_1789561888330",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-16T12:31:28.479Z",
+      "createdAt": "2026-09-16T12:31:28.479Z",
+      "updatedAt": "2026-09-16T12:31:28.479Z"
+    },
+    {
+      "id": "card-5a0dd3d8-c424-4d44-9e85-de0e8eafbeee",
+      "participantId": "part-008",
+      "cardNumber": "BSC-CARD-000011",
+      "tokenHash": "22914ec3cd604aa2814c0e4724216d196c771dc20a38d8ddf829044ee76dfd4d",
+      "rawTokenPreview": "BSCNFC:v1:test_concurrency_1789561877322",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-16T12:31:17.450Z",
+      "createdAt": "2026-09-16T12:31:17.450Z",
+      "updatedAt": "2026-09-16T12:31:17.450Z"
+    },
+    {
+      "id": "card-001",
+      "participantId": "part-001",
+      "cardNumber": "BSC-CARD-000124",
+      "tokenHash": "319faa478766c1fe3d84ce4d3cf5ed4967fb004d3f12c4c1c4faa1b9d26428b6",
+      "rawTokenPreview": "BSCNFC:v1:982f1b4a7d6e5c3a",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-05T09:00:00Z",
+      "createdAt": "2026-09-05T08:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "card-002",
+      "participantId": "part-002",
+      "cardNumber": "BSC-CARD-000125",
+      "tokenHash": "16f11103517c91435a42c762543f1d58931180ade9a46591018df37576beba76",
+      "rawTokenPreview": "BSCNFC:v1:4c8a2e1f9b3d7a6e",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-05T09:10:00Z",
+      "createdAt": "2026-09-05T08:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "card-003",
+      "participantId": "part-003",
+      "cardNumber": "BSC-CARD-000126",
+      "tokenHash": "3cd1c26feef11508070e133b5f72c356c851e9bd777ae4fe75deccb790677c7e",
+      "rawTokenPreview": "BSCNFC:v1:7d3f9a2e6c1b8a4f",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-05T09:15:00Z",
+      "createdAt": "2026-09-05T08:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "card-004",
+      "participantId": "part-004",
+      "cardNumber": "BSC-CARD-000127",
+      "tokenHash": "e7c5b4d67dd392cd6284193be569f02d5f96ab2dc9ce0dc0829f690b13d5c67d",
+      "rawTokenPreview": "BSCNFC:v1:3a6e9d2f1b7c4a8e",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-05T09:20:00Z",
+      "createdAt": "2026-09-05T08:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "card-005",
+      "participantId": "part-005",
+      "cardNumber": "BSC-CARD-000128",
+      "tokenHash": "397e326b750a17cbb268807c898f20c857609d7ac97fcbb2532b0c924be32966",
+      "rawTokenPreview": "BSCNFC:v1:8f4c2e6b1a9d7e3a",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-05T09:25:00Z",
+      "createdAt": "2026-09-05T08:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "card-006",
+      "participantId": "part-006",
+      "cardNumber": "BSC-CARD-000129",
+      "tokenHash": "425966910c3b3ba4aed1617f203edf9a3ff5bede0025c3141dbee44973b7e87d",
+      "rawTokenPreview": "BSCNFC:v1:1e7d3a9b6c2f4a8e",
+      "status": "REVOKED",
+      "issuedAt": "2026-09-05T09:30:00Z",
+      "revokedAt": "2026-09-10T14:00:00Z",
+      "createdAt": "2026-09-05T08:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "card-007",
+      "participantId": "part-007",
+      "cardNumber": "BSC-CARD-000130",
+      "tokenHash": "d44f8f5f5692981f76838b71bc1a7f5d150967b086d5cc58c8a6f10d77122d60",
+      "rawTokenPreview": "BSCNFC:v1:6b2f8a4e1d7c3a9f",
+      "status": "LOST",
+      "issuedAt": "2026-09-05T09:35:00Z",
+      "revokedAt": "2026-09-12T11:00:00Z",
+      "createdAt": "2026-09-05T08:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "card-008",
+      "participantId": "part-009",
+      "cardNumber": "BSC-CARD-000131",
+      "tokenHash": "60d0665c122ea490ba0d14f70b30029fd7b53ee9d49537ea8b8bfcaffa94fcc7",
+      "rawTokenPreview": "BSCNFC:v1:5a8e2d4c9f1b7a3e",
+      "status": "ACTIVE",
+      "issuedAt": "2026-09-06T10:00:00Z",
+      "createdAt": "2026-09-05T08:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "card-009",
+      "cardNumber": "BSC-CARD-000132",
+      "tokenHash": "4f6bae88f54d3d249859966e640ae65720b28bb5c901d259e3140f3c0653b49d",
+      "rawTokenPreview": "BSCNFC:v1:blank_unassigned_tag_01",
+      "status": "UNASSIGNED",
+      "createdAt": "2026-09-05T08:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "card-010",
+      "cardNumber": "BSC-CARD-000133",
+      "tokenHash": "45a74d8cf9b224359ac2fb7530506ad8621d30ea9e6b538344cd71b5452e4be0",
+      "rawTokenPreview": "BSCNFC:v1:blank_unassigned_tag_02",
+      "status": "UNASSIGNED",
+      "createdAt": "2026-09-05T08:30:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    }
+  ],
+  "devices": [
+    {
+      "id": "dev-001",
+      "deviceCode": "BSC-EVENT-01",
+      "deviceName": "Main Entrance - Mumias Road",
+      "location": "Parish Gate A",
+      "isActive": true,
+      "lastSeenAt": "2026-09-21T07:02:00.434Z",
+      "createdAt": "2026-09-01T08:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "dev-002",
+      "deviceCode": "BSC-EVENT-02",
+      "deviceName": "Youth & Hall Entrance",
+      "location": "Fr. Grol Hall Porch",
+      "isActive": true,
+      "lastSeenAt": "2026-09-16T09:02:39.404Z",
+      "createdAt": "2026-09-01T08:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "dev-003",
+      "deviceCode": "BSC-EVENT-03",
+      "deviceName": "Registration Desk & Help Kiosk",
+      "location": "Pastoral Office Tent",
+      "isActive": true,
+      "lastSeenAt": "2026-09-16T09:02:39.404Z",
+      "createdAt": "2026-09-01T08:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "dev-7ac91731",
+      "deviceCode": "BSC-HANDHELD-2131",
+      "deviceName": "NFC Handheld Scanner",
+      "location": "Gate A East",
+      "isActive": true,
+      "lastSeenAt": "2026-09-21T06:35:52.205Z",
+      "createdAt": "2026-09-21T06:35:52.135Z",
+      "updatedAt": "2026-09-21T06:35:52.135Z"
+    },
+    {
+      "id": "dev-fe553810",
+      "deviceCode": "BSC-HANDHELD-2102",
+      "deviceName": "NFC Handheld Scanner",
+      "location": "Gate A East",
+      "isActive": true,
+      "lastSeenAt": "2026-09-21T06:37:22.185Z",
+      "createdAt": "2026-09-21T06:37:22.105Z",
+      "updatedAt": "2026-09-21T06:37:22.105Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-001",
+      "eventCode": "YSC-SPORT-2026",
+      "title": "YSC Annual Parish Sports Day 2026",
+      "description": "Annual sports and fellowship tournament bringing together all Blessed Sacrament Parish youth and families at Mukuru Grounds. Competitions in football, volleyball, athletics, and cultural dances.",
+      "category": "Youth & Sports",
+      "venue": "Mukuru Sports Grounds, Buru-Phase III",
+      "startAt": "2026-09-20T07:00:00Z",
+      "endAt": "2026-09-20T17:00:00Z",
+      "registrationOpenAt": "2026-09-01T00:00:00Z",
+      "registrationCloseAt": "2026-09-20T12:00:00Z",
+      "capacity": 500,
+      "status": "LIVE",
+      "allowRegistration": true,
+      "allowNfcCheckin": true,
+      "allowQrCheckin": true,
+      "allowManualCheckin": true,
+      "createdBy": "usr-admin-1",
+      "createdAt": "2026-09-01T09:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "evt-002",
+      "eventCode": "PPC-ASSEMBLY-2026",
+      "title": "Parish Pastoral Council General Assembly",
+      "description": "Quarterly consultative assembly of Blessed Sacrament parish executive leaders, SCC representatives, and apostolic groups to evaluate pastoral initiatives and parish calendar.",
+      "category": "Pastoral & Governance",
+      "venue": "Fr. Grol Memorial Parish Hall",
+      "startAt": "2026-09-27T09:00:00Z",
+      "endAt": "2026-09-27T13:30:00Z",
+      "registrationOpenAt": "2026-09-05T00:00:00Z",
+      "registrationCloseAt": "2026-09-26T18:00:00Z",
+      "capacity": 150,
+      "status": "PUBLISHED",
+      "allowRegistration": true,
+      "allowNfcCheckin": true,
+      "allowQrCheckin": true,
+      "allowManualCheckin": true,
+      "createdBy": "usr-admin-1",
+      "createdAt": "2026-09-05T11:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "evt-003",
+      "eventCode": "CORPUS-CHRISTI-2026",
+      "title": "Solemnity of Corpus Christi Parish Vigil",
+      "description": "Overnight Eucharistic Adoration, vigil prayers, and solemn choral benediction culminating in the dawn Eucharistic procession through Buru-Phase III streets.",
+      "category": "Liturgical & Spiritual",
+      "venue": "Blessed Sacrament Main Sanctuary",
+      "startAt": "2026-10-04T18:00:00Z",
+      "endAt": "2026-10-05T06:00:00Z",
+      "registrationOpenAt": "2026-09-10T00:00:00Z",
+      "registrationCloseAt": "2026-10-04T20:00:00Z",
+      "capacity": 800,
+      "status": "PUBLISHED",
+      "allowRegistration": true,
+      "allowNfcCheckin": true,
+      "allowQrCheckin": true,
+      "allowManualCheckin": true,
+      "createdBy": "usr-event-admin-1",
+      "createdAt": "2026-09-10T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "evt-004",
+      "eventCode": "CMA-MEN-2026",
+      "title": "CMA Men Fellowship & Mentorship Breakfast",
+      "description": "Catholic Men Association spiritual reflection, breakfast, and youth mentorship outreach session.",
+      "category": "Men Ministry",
+      "venue": "St. Joseph Center, Blessed Sacrament",
+      "startAt": "2026-09-06T07:30:00Z",
+      "endAt": "2026-09-06T11:30:00Z",
+      "registrationOpenAt": "2026-08-20T00:00:00Z",
+      "registrationCloseAt": "2026-09-05T18:00:00Z",
+      "capacity": 100,
+      "status": "COMPLETED",
+      "allowRegistration": false,
+      "allowNfcCheckin": true,
+      "allowQrCheckin": true,
+      "allowManualCheckin": true,
+      "createdBy": "usr-admin-1",
+      "createdAt": "2026-08-20T10:00:00Z",
+      "updatedAt": "2026-09-06T12:00:00Z"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "reg-9ac56c52-3dff-4826-aae4-6390e5180a62",
+      "eventId": "evt-001",
+      "participantId": "part-f4c114e8-54e2-431b-96fe-e2f136c97baa",
+      "registrationCode": "BSC-EVT-000028",
+      "qrTokenHash": "72ea013e53c69b1dbd2cf959ddbbf6c1cb86875cd29d60c8b9c305c4855a57f7",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000028_part-f4c114e8-54e2-431b-96fe-e2f136c97baa",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-21T07:02:00.426Z",
+      "createdAt": "2026-09-21T07:02:00.426Z",
+      "updatedAt": "2026-09-21T07:02:00.426Z"
+    },
+    {
+      "id": "reg-74068ae7-8962-42c3-ba19-e2f61a12ce81",
+      "eventId": "evt-001",
+      "participantId": "part-6a509409-ad5c-462a-b30f-85a14a73c309",
+      "registrationCode": "BSC-EVT-000027",
+      "qrTokenHash": "20e9fbfac4dae2b309aacff62a675c02469478cff21141349f41937513cd6556",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000027_part-6a509409-ad5c-462a-b30f-85a14a73c309",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-21T07:02:00.408Z",
+      "createdAt": "2026-09-21T07:02:00.408Z",
+      "updatedAt": "2026-09-21T07:02:00.408Z"
+    },
+    {
+      "id": "reg-4a127c3a-3a9d-4ebe-bbf8-98f5b4bc5caf",
+      "eventId": "evt-001",
+      "participantId": "part-30d62fbd-0f99-4370-a576-257decf2c2bb",
+      "registrationCode": "BSC-EVT-000026",
+      "qrTokenHash": "5467294da835a43b7ef5165c07694d55b69e7d6aa0a05edf189f3935fb780dc1",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000026_part-30d62fbd-0f99-4370-a576-257decf2c2bb",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-21T07:01:08.159Z",
+      "createdAt": "2026-09-21T07:01:08.159Z",
+      "updatedAt": "2026-09-21T07:01:08.159Z"
+    },
+    {
+      "id": "reg-6365f159-22b1-4ea5-9c05-0dfb80687313",
+      "eventId": "evt-001",
+      "participantId": "part-52027046-ca08-4830-bfc7-d8793bea54aa",
+      "registrationCode": "BSC-EVT-000025",
+      "qrTokenHash": "f9ea309e01e7df5f080c053a0731cc5defc08451407f5564eab789cabc4aff61",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000025_part-52027046-ca08-4830-bfc7-d8793bea54aa",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-21T07:01:08.141Z",
+      "createdAt": "2026-09-21T07:01:08.141Z",
+      "updatedAt": "2026-09-21T07:01:08.141Z"
+    },
+    {
+      "id": "reg-ea9ff680-0f2b-418e-80da-7f633c93d81d",
+      "eventId": "evt-001",
+      "participantId": "part-d65fccf9-9cc2-4ba8-a75f-6c5c11982c87",
+      "registrationCode": "BSC-EVT-000024",
+      "qrTokenHash": "a1b8045b5e8db2e1edb675c619c5f18960d38ad7433ca388121932703835a99c",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000024_part-d65fccf9-9cc2-4ba8-a75f-6c5c11982c87",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-21T07:01:01.597Z",
+      "createdAt": "2026-09-21T07:01:01.597Z",
+      "updatedAt": "2026-09-21T07:01:01.597Z"
+    },
+    {
+      "id": "reg-defff544-35ba-4112-95a9-75eb00e2ae9b",
+      "eventId": "evt-001",
+      "participantId": "part-f93c0fa8-566a-422a-b0ee-5f53e6a1fb81",
+      "registrationCode": "BSC-EVT-000023",
+      "qrTokenHash": "4f67c43cb4de074a4e871cd2dccf343519ce993c5b54e17229f1f7c46872e997",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000023_part-f93c0fa8-566a-422a-b0ee-5f53e6a1fb81",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-21T07:01:01.576Z",
+      "createdAt": "2026-09-21T07:01:01.576Z",
+      "updatedAt": "2026-09-21T07:01:01.576Z"
+    },
+    {
+      "id": "reg-04f11b14-21ed-41b0-a55b-9d033630ff79",
+      "eventId": "evt-001",
+      "participantId": "part-f628cd53-ccea-4923-8064-e53713c6b43d",
+      "registrationCode": "BSC-EVT-000022",
+      "qrTokenHash": "8c4df3bb59c7caabcf317c519d7958dcf4fdc33165c8cf48c1b9a2ae151b7647",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000022_part-f628cd53-ccea-4923-8064-e53713c6b43d",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-21T06:37:22.172Z",
+      "createdAt": "2026-09-21T06:37:22.172Z",
+      "updatedAt": "2026-09-21T06:37:22.172Z"
+    },
+    {
+      "id": "reg-c0e39115-4bb9-4dbb-a567-3a63db950787",
+      "eventId": "evt-001",
+      "participantId": "part-c724cd54-1785-46e3-8ce7-9104e67c63d3",
+      "registrationCode": "BSC-EVT-000021",
+      "qrTokenHash": "99906de986313748efc8cd17e5e1c421e9cbc67dadb2d752645ce93762ca04fd",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000021_part-c724cd54-1785-46e3-8ce7-9104e67c63d3",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-21T06:37:22.119Z",
+      "createdAt": "2026-09-21T06:37:22.119Z",
+      "updatedAt": "2026-09-21T06:37:22.119Z"
+    },
+    {
+      "id": "reg-001-part-001",
+      "eventId": "evt-001",
+      "participantId": "part-001",
+      "registrationCode": "BSC-EVT-000001",
+      "qrTokenHash": "c18f298004bfb5aafc2adf3d7c7e20e51e43127e9f5459fcb312f9d4dbe5988f",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000001_part-001",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-002",
+      "eventId": "evt-001",
+      "participantId": "part-002",
+      "registrationCode": "BSC-EVT-000002",
+      "qrTokenHash": "87f869a2b4398771ea4588a819680bda3287c7bb78dc064312a0eb79d8f00482",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000002_part-002",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-003",
+      "eventId": "evt-001",
+      "participantId": "part-003",
+      "registrationCode": "BSC-EVT-000003",
+      "qrTokenHash": "4c7a2bf47ef07e9e5255434cc5980f9742c9aa2fdd70cd6db5bb98d3035ef08a",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000003_part-003",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-004",
+      "eventId": "evt-001",
+      "participantId": "part-004",
+      "registrationCode": "BSC-EVT-000004",
+      "qrTokenHash": "3ee4cf6e096f261ba0343b90beaa11e931523183a92fe850fe47468ff8e1218d",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000004_part-004",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-005",
+      "eventId": "evt-001",
+      "participantId": "part-005",
+      "registrationCode": "BSC-EVT-000005",
+      "qrTokenHash": "94e6b783995793aeb9a782e9cdd477ea786ab5cabf51fbb83fcb44965300b649",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000005_part-005",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-006",
+      "eventId": "evt-001",
+      "participantId": "part-006",
+      "registrationCode": "BSC-EVT-000006",
+      "qrTokenHash": "804d641e60efe648ad681b25040dfa95ffc7a5041362942e11e289eb8bb3a02d",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000006_part-006",
+      "status": "REGISTERED",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-007",
+      "eventId": "evt-001",
+      "participantId": "part-007",
+      "registrationCode": "BSC-EVT-000007",
+      "qrTokenHash": "017660cde8013f5278094fd82e8a126f2c739d99509ebcf8403d84aeea92570b",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000007_part-007",
+      "status": "REGISTERED",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-008",
+      "eventId": "evt-001",
+      "participantId": "part-008",
+      "registrationCode": "BSC-EVT-000008",
+      "qrTokenHash": "78d9cbbaea7eb018577e36619e26e44b2b49fd66c6cc66cccce0afae762cd789",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000008_part-008",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-009",
+      "eventId": "evt-001",
+      "participantId": "part-009",
+      "registrationCode": "BSC-EVT-000009",
+      "qrTokenHash": "eaf4aa16ba10e7523514c86cf80feba390ca371f4daa9792ff526de3db2ca780",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000009_part-009",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-010",
+      "eventId": "evt-001",
+      "participantId": "part-010",
+      "registrationCode": "BSC-EVT-000010",
+      "qrTokenHash": "a4d25e9cb61a733f1d3cdd9ce8e1b0e64586c187cc563d55f2b12c85cc4a184e",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000010_part-010",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-011",
+      "eventId": "evt-001",
+      "participantId": "part-011",
+      "registrationCode": "BSC-EVT-000011",
+      "qrTokenHash": "91f8f1c5d49f79617d5a2904447352455570316b4f1f85b93b48d4749ad51554",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000011_part-011",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-012",
+      "eventId": "evt-001",
+      "participantId": "part-012",
+      "registrationCode": "BSC-EVT-000012",
+      "qrTokenHash": "b31b027496ccb59254f0dea67cc15e4a29ef8176ac17137b19eca89586eacd52",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000012_part-012",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-013",
+      "eventId": "evt-001",
+      "participantId": "part-013",
+      "registrationCode": "BSC-EVT-000013",
+      "qrTokenHash": "c19ed96fe3951b9575ad4f4229f74e4869fb248dc39c9efdcc6ead107716594e",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000013_part-013",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-014",
+      "eventId": "evt-001",
+      "participantId": "part-014",
+      "registrationCode": "BSC-EVT-000014",
+      "qrTokenHash": "fb8951c5a3db58ec982377ba5574ed0fac684186d116383f54d29bdf51e9f270",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000014_part-014",
+      "status": "CHECKED_IN",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-015",
+      "eventId": "evt-001",
+      "participantId": "part-015",
+      "registrationCode": "BSC-EVT-000015",
+      "qrTokenHash": "2461f427fbc33505235b84b553853f6b5a5af648345f303ef45954a55f94acbf",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000015_part-015",
+      "status": "REGISTERED",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-016",
+      "eventId": "evt-001",
+      "participantId": "part-016",
+      "registrationCode": "BSC-EVT-000016",
+      "qrTokenHash": "2c479815924fb701183462912d426c1ae8880c7936a06dc740d82f200a5be404",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000016_part-016",
+      "status": "REGISTERED",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-017",
+      "eventId": "evt-001",
+      "participantId": "part-017",
+      "registrationCode": "BSC-EVT-000017",
+      "qrTokenHash": "b5ffb40d6b87c9a4b63faab73299c7cb83c7a2afb7a517e55964ef9028076f0f",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000017_part-017",
+      "status": "REGISTERED",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-018",
+      "eventId": "evt-001",
+      "participantId": "part-018",
+      "registrationCode": "BSC-EVT-000018",
+      "qrTokenHash": "fe9cc7056fd96ebb758e8b75478de4b8a4a2ea94d89995ab4396678f3165db68",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000018_part-018",
+      "status": "REGISTERED",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-019",
+      "eventId": "evt-001",
+      "participantId": "part-019",
+      "registrationCode": "BSC-EVT-000019",
+      "qrTokenHash": "c99bead18103206a8405af82da5c12555c7d90485d509fade063932f3ee98e8b",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000019_part-019",
+      "status": "REGISTERED",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    },
+    {
+      "id": "reg-001-part-020",
+      "eventId": "evt-001",
+      "participantId": "part-020",
+      "registrationCode": "BSC-EVT-000020",
+      "qrTokenHash": "e05e1663872d51e3cd06dd956b0737b118a0f031cf133dd409d8ed80bed53b8e",
+      "rawQrToken": "https://events.blessedsacramentcatholichurch.com/checkin/qr/BSC-EVT-000020_part-020",
+      "status": "REGISTERED",
+      "registeredAt": "2026-09-05T12:00:00Z",
+      "createdAt": "2026-09-05T12:00:00Z",
+      "updatedAt": "2026-09-16T09:02:39.404Z"
+    }
+  ],
+  "attendances": [
+    {
+      "id": "att-d34054ef-8ff1-476d-825c-a4b7be454f01",
+      "eventId": "evt-001",
+      "participantId": "part-f4c114e8-54e2-431b-96fe-e2f136c97baa",
+      "registrationId": "reg-9ac56c52-3dff-4826-aae4-6390e5180a62",
+      "method": "NFC",
+      "deviceId": "BSC-EVENT-01",
+      "checkInAt": "2026-09-21T07:02:00.427Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Offline sync record (queued at 2026-09-21T07:02:00.422Z)",
+      "clientEventId": "b7c91114-2f94-4214-8e7b-990107b6ba43",
+      "createdAt": "2026-09-21T07:02:00.427Z",
+      "updatedAt": "2026-09-21T07:02:00.427Z"
+    },
+    {
+      "id": "att-3e3b8aae-372a-4bc1-a6b0-466faa154902",
+      "eventId": "evt-001",
+      "participantId": "part-6a509409-ad5c-462a-b30f-85a14a73c309",
+      "registrationId": "reg-74068ae7-8962-42c3-ba19-e2f61a12ce81",
+      "method": "NFC",
+      "deviceId": "BSC-EVENT-01",
+      "checkInAt": "2026-09-21T07:02:00.409Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card BSC-CARD-000031 tapped at Parish Gate A",
+      "clientEventId": "c8958ccf-8f06-4c08-96b5-99426a2eb4f3",
+      "createdAt": "2026-09-21T07:02:00.409Z",
+      "updatedAt": "2026-09-21T07:02:00.409Z"
+    },
+    {
+      "id": "att-483c7b1d-3024-49ac-8fee-fc86238747ed",
+      "eventId": "evt-001",
+      "participantId": "part-30d62fbd-0f99-4370-a576-257decf2c2bb",
+      "registrationId": "reg-4a127c3a-3a9d-4ebe-bbf8-98f5b4bc5caf",
+      "method": "NFC",
+      "deviceId": "BSC-EVENT-01",
+      "checkInAt": "2026-09-21T07:01:08.160Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Offline sync record (queued at 2026-09-21T07:01:08.154Z)",
+      "clientEventId": "07b54e11-ba37-48f9-8e26-18f45fea0775",
+      "createdAt": "2026-09-21T07:01:08.160Z",
+      "updatedAt": "2026-09-21T07:01:08.160Z"
+    },
+    {
+      "id": "att-e72fc76b-30c4-47d9-ad1d-eab2aa9c4a6f",
+      "eventId": "evt-001",
+      "participantId": "part-52027046-ca08-4830-bfc7-d8793bea54aa",
+      "registrationId": "reg-6365f159-22b1-4ea5-9c05-0dfb80687313",
+      "method": "NFC",
+      "deviceId": "BSC-EVENT-01",
+      "checkInAt": "2026-09-21T07:01:08.142Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card BSC-CARD-000029 tapped at Parish Gate A",
+      "clientEventId": "9866363a-c03f-46bb-a48e-d407779a527d",
+      "createdAt": "2026-09-21T07:01:08.142Z",
+      "updatedAt": "2026-09-21T07:01:08.142Z"
+    },
+    {
+      "id": "att-db275ced-8822-437c-bb6b-b7752a7a78dc",
+      "eventId": "evt-001",
+      "participantId": "part-d65fccf9-9cc2-4ba8-a75f-6c5c11982c87",
+      "registrationId": "reg-ea9ff680-0f2b-418e-80da-7f633c93d81d",
+      "method": "NFC",
+      "deviceId": "BSC-EVENT-01",
+      "checkInAt": "2026-09-21T07:01:01.597Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Offline sync record (queued at 2026-09-21T07:01:01.590Z)",
+      "clientEventId": "04a79a75-ac43-43f1-8493-9fe60abda184",
+      "createdAt": "2026-09-21T07:01:01.597Z",
+      "updatedAt": "2026-09-21T07:01:01.597Z"
+    },
+    {
+      "id": "att-7292d373-26e2-4930-9fe9-916909170b99",
+      "eventId": "evt-001",
+      "participantId": "part-f93c0fa8-566a-422a-b0ee-5f53e6a1fb81",
+      "registrationId": "reg-defff544-35ba-4112-95a9-75eb00e2ae9b",
+      "method": "NFC",
+      "deviceId": "BSC-EVENT-01",
+      "checkInAt": "2026-09-21T07:01:01.577Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card BSC-CARD-000027 tapped at Parish Gate A",
+      "clientEventId": "6bf22c67-3924-4efa-96bf-36731335b6a7",
+      "createdAt": "2026-09-21T07:01:01.577Z",
+      "updatedAt": "2026-09-21T07:01:01.577Z"
+    },
+    {
+      "id": "att-afe8f99a-3b34-4f62-833f-db5cc2741a3d",
+      "eventId": "evt-001",
+      "participantId": "part-f628cd53-ccea-4923-8064-e53713c6b43d",
+      "registrationId": "reg-04f11b14-21ed-41b0-a55b-9d033630ff79",
+      "method": "NFC",
+      "deviceId": "BSC-HANDHELD-2102",
+      "checkInAt": "2026-09-21T06:37:22.181Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Offline sync record (queued at 2026-09-21T06:37:22.177Z)",
+      "clientEventId": "offline-event-1789972642177",
+      "createdAt": "2026-09-21T06:37:22.181Z",
+      "updatedAt": "2026-09-21T06:37:22.181Z"
+    },
+    {
+      "id": "att-717ca029-0b04-4c46-9ffa-03f75fce5952",
+      "eventId": "evt-001",
+      "participantId": "part-c724cd54-1785-46e3-8ce7-9104e67c63d3",
+      "registrationId": "reg-c0e39115-4bb9-4dbb-a567-3a63db950787",
+      "method": "NFC",
+      "deviceId": "BSC-HANDHELD-2102",
+      "checkInAt": "2026-09-21T06:37:22.132Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card BSC-CARD-000019 tapped at Gate A East",
+      "clientEventId": "client-event-uuid-1789972642127",
+      "createdAt": "2026-09-21T06:37:22.132Z",
+      "updatedAt": "2026-09-21T06:37:22.132Z"
+    },
+    {
+      "id": "att-c88b9d1b-7c24-4c0b-94e9-bbe276031d88",
+      "eventId": "evt-001",
+      "participantId": "part-014",
+      "registrationId": "reg-001-part-014",
+      "method": "NFC",
+      "deviceId": "BSC-EVENT-01",
+      "checkInAt": "2026-09-21T06:35:59.875Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Offline sync record (queued at 2026-09-21T06:35:59.870Z)",
+      "clientEventId": "offline-idem-1789972559870",
+      "createdAt": "2026-09-21T06:35:59.875Z",
+      "updatedAt": "2026-09-21T06:35:59.875Z"
+    },
+    {
+      "id": "att-c27ced4d-90a6-4fad-96b6-f857b906108f",
+      "eventId": "evt-001",
+      "participantId": "part-013",
+      "registrationId": "reg-001-part-013",
+      "method": "NFC",
+      "deviceId": "BSC-HANDHELD-2131",
+      "checkInAt": "2026-09-21T06:35:52.200Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Offline sync record (queued at 2026-09-21T06:35:52.194Z)",
+      "clientEventId": "offline-event-1789972552194",
+      "createdAt": "2026-09-21T06:35:52.200Z",
+      "updatedAt": "2026-09-21T06:35:52.200Z"
+    },
+    {
+      "id": "att-c40807ac-bbee-4979-ae02-1bfb38a7fc7a",
+      "eventId": "evt-001",
+      "participantId": "part-012",
+      "registrationId": "reg-001-part-012",
+      "method": "NFC",
+      "deviceId": "BSC-HANDHELD-2131",
+      "checkInAt": "2026-09-21T06:35:52.154Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card BSC-CARD-000016 tapped at Gate A East",
+      "clientEventId": "client-event-uuid-1789972552147",
+      "createdAt": "2026-09-21T06:35:52.154Z",
+      "updatedAt": "2026-09-21T06:35:52.154Z"
+    },
+    {
+      "id": "att-e33c1a7a-076f-41fd-84c1-0f5e12a36aa0",
+      "eventId": "evt-001",
+      "participantId": "part-011",
+      "registrationId": "reg-001-part-011",
+      "method": "NFC",
+      "deviceId": "BSC-EVENT-01",
+      "checkInAt": "2026-09-21T06:33:57.746Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card BSC-CARD-000015 tapped at Parish Gate A",
+      "clientEventId": "idem-uuid-1789972437741",
+      "createdAt": "2026-09-21T06:33:57.746Z",
+      "updatedAt": "2026-09-21T06:33:57.746Z"
+    },
+    {
+      "id": "att-98b6b229-f11b-4c7d-900f-3c9045107fff",
+      "eventId": "evt-001",
+      "participantId": "part-010",
+      "registrationId": "reg-001-part-010",
+      "method": "NFC",
+      "deviceId": "dev-001",
+      "checkInAt": "2026-09-16T12:31:28.495Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card BSC-CARD-000012 tapped",
+      "createdAt": "2026-09-16T12:31:28.495Z",
+      "updatedAt": "2026-09-16T12:31:28.495Z"
+    },
+    {
+      "id": "att-a5637b01-55d4-4bd2-aa93-2f450f36b009",
+      "eventId": "evt-001",
+      "participantId": "part-008",
+      "registrationId": "reg-001-part-008",
+      "method": "NFC",
+      "deviceId": "dev-001",
+      "checkInAt": "2026-09-16T12:31:17.469Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card BSC-CARD-000011 tapped",
+      "createdAt": "2026-09-16T12:31:17.469Z",
+      "updatedAt": "2026-09-16T12:31:17.469Z"
+    },
+    {
+      "id": "att-36d24902-1c3f-44bc-8220-29573e03eead",
+      "eventId": "evt-001",
+      "participantId": "part-001",
+      "registrationId": "reg-001-part-001",
+      "method": "NFC",
+      "deviceId": "BSC-EVENT-01",
+      "checkInAt": "2026-09-16T09:04:09.860Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card BSC-CARD-000124 tapped",
+      "createdAt": "2026-09-16T09:04:09.860Z",
+      "updatedAt": "2026-09-16T09:04:09.860Z"
+    },
+    {
+      "id": "att-001",
+      "eventId": "evt-001",
+      "participantId": "part-002",
+      "registrationId": "reg-001-part-002",
+      "method": "NFC",
+      "deviceId": "dev-001",
+      "checkInAt": "2026-09-20T08:14:00Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card tap via Main Entrance reader",
+      "clientEventId": "client-sync-001",
+      "createdAt": "2026-09-20T08:14:00Z",
+      "updatedAt": "2026-09-20T08:14:00Z"
+    },
+    {
+      "id": "att-002",
+      "eventId": "evt-001",
+      "participantId": "part-003",
+      "registrationId": "reg-001-part-003",
+      "method": "QR",
+      "deviceId": "dev-002",
+      "checkInAt": "2026-09-20T08:26:00Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Mobile QR scanned at Youth Entrance",
+      "clientEventId": "client-sync-002",
+      "createdAt": "2026-09-20T08:26:00Z",
+      "updatedAt": "2026-09-20T08:26:00Z"
+    },
+    {
+      "id": "att-003",
+      "eventId": "evt-001",
+      "participantId": "part-004",
+      "registrationId": "reg-001-part-004",
+      "method": "NFC",
+      "deviceId": "dev-001",
+      "checkInAt": "2026-09-20T08:42:00Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card tap via Main Entrance reader",
+      "clientEventId": "client-sync-003",
+      "createdAt": "2026-09-20T08:42:00Z",
+      "updatedAt": "2026-09-20T08:42:00Z"
+    },
+    {
+      "id": "att-004",
+      "eventId": "evt-001",
+      "participantId": "part-005",
+      "registrationId": "reg-001-part-005",
+      "method": "MANUAL",
+      "deviceId": "dev-003",
+      "checkInAt": "2026-09-20T09:05:00Z",
+      "operatorUserId": "usr-admin-1",
+      "notes": "Manual participant lookup at Registration Desk",
+      "clientEventId": "client-sync-004",
+      "createdAt": "2026-09-20T09:05:00Z",
+      "updatedAt": "2026-09-20T09:05:00Z"
+    },
+    {
+      "id": "att-005",
+      "eventId": "evt-001",
+      "participantId": "part-009",
+      "registrationId": "reg-001-part-009",
+      "method": "NFC",
+      "deviceId": "dev-001",
+      "checkInAt": "2026-09-20T09:18:00Z",
+      "operatorUserId": "usr-operator-1",
+      "notes": "Card tap via Main Entrance reader",
+      "clientEventId": "client-sync-005",
+      "createdAt": "2026-09-20T09:18:00Z",
+      "updatedAt": "2026-09-20T09:18:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno (Offline Sync)",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-d34054ef-8ff1-476d-825c-a4b7be454f01",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000028",
+        "participantName": "Joseph Kamau",
+        "method": "NFC",
+        "deviceId": "BSC-EVENT-01"
+      },
+      "id": "log-c917d42c-4995-468e-a81f-6d1f79a7274e",
+      "createdAt": "2026-09-21T07:02:00.427Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno (Offline Sync)",
+      "action": "PARTICIPANT_REGISTERED",
+      "entityType": "REGISTRATION",
+      "entityId": "reg-9ac56c52-3dff-4826-aae4-6390e5180a62",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantId": "part-f4c114e8-54e2-431b-96fe-e2f136c97baa",
+        "registrationCode": "BSC-EVT-000028"
+      },
+      "id": "log-5d74c797-9573-4733-97f4-52e52e341b78",
+      "createdAt": "2026-09-21T07:02:00.426Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-3e3b8aae-372a-4bc1-a6b0-466faa154902",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000027",
+        "participantName": "Teresa Ndung'u",
+        "method": "NFC",
+        "deviceId": "BSC-EVENT-01"
+      },
+      "id": "log-843d8804-b98e-429d-a701-91ade782aba4",
+      "createdAt": "2026-09-21T07:02:00.409Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "PARTICIPANT_REGISTERED",
+      "entityType": "REGISTRATION",
+      "entityId": "reg-74068ae7-8962-42c3-ba19-e2f61a12ce81",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantId": "part-6a509409-ad5c-462a-b30f-85a14a73c309",
+        "registrationCode": "BSC-EVT-000027"
+      },
+      "id": "log-7f7f96d3-5495-43b7-bdfc-d47a6f4ba637",
+      "createdAt": "2026-09-21T07:02:00.408Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-16f93f41-6796-4240-8cd5-576cbdf7b77a",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000032",
+        "participantId": "part-f4c114e8-54e2-431b-96fe-e2f136c97baa",
+        "status": "ACTIVE"
+      },
+      "id": "log-736726d3-dd33-4845-962b-c1085cb0d7ed",
+      "createdAt": "2026-09-21T07:02:00.399Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-6969ed39-0843-4e92-8496-d587d1c82cab",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000031",
+        "participantId": "part-6a509409-ad5c-462a-b30f-85a14a73c309",
+        "status": "ACTIVE"
+      },
+      "id": "log-8b8fdc35-e8eb-4049-9355-2b2b0011237b",
+      "createdAt": "2026-09-21T07:02:00.390Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-085e2b4d-b584-4be4-ac7a-d8053672c1d3",
+      "createdAt": "2026-09-21T07:02:00.349Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno (Offline Sync)",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-483c7b1d-3024-49ac-8fee-fc86238747ed",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000026",
+        "participantName": "Joseph Kamau",
+        "method": "NFC",
+        "deviceId": "BSC-EVENT-01"
+      },
+      "id": "log-32edc0f2-5e37-403a-ae85-d5d712c0ec46",
+      "createdAt": "2026-09-21T07:01:08.160Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno (Offline Sync)",
+      "action": "PARTICIPANT_REGISTERED",
+      "entityType": "REGISTRATION",
+      "entityId": "reg-4a127c3a-3a9d-4ebe-bbf8-98f5b4bc5caf",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantId": "part-30d62fbd-0f99-4370-a576-257decf2c2bb",
+        "registrationCode": "BSC-EVT-000026"
+      },
+      "id": "log-e95a1726-1f07-4108-97ea-d528490ef5d8",
+      "createdAt": "2026-09-21T07:01:08.159Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-e72fc76b-30c4-47d9-ad1d-eab2aa9c4a6f",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000025",
+        "participantName": "Teresa Ndung'u",
+        "method": "NFC",
+        "deviceId": "BSC-EVENT-01"
+      },
+      "id": "log-b841d274-601a-4ce9-8280-5276a5a83df6",
+      "createdAt": "2026-09-21T07:01:08.142Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "PARTICIPANT_REGISTERED",
+      "entityType": "REGISTRATION",
+      "entityId": "reg-6365f159-22b1-4ea5-9c05-0dfb80687313",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantId": "part-52027046-ca08-4830-bfc7-d8793bea54aa",
+        "registrationCode": "BSC-EVT-000025"
+      },
+      "id": "log-d6df3381-49d6-4708-84ed-0ec2ddb6e571",
+      "createdAt": "2026-09-21T07:01:08.141Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-9a0ad1a7-490c-4261-9f2d-9ef1f68eb891",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000030",
+        "participantId": "part-30d62fbd-0f99-4370-a576-257decf2c2bb",
+        "status": "ACTIVE"
+      },
+      "id": "log-a063b5cc-a9a9-46f7-b509-d80a3a320426",
+      "createdAt": "2026-09-21T07:01:08.133Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-140d5879-6976-469d-a728-54d6517011c6",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000029",
+        "participantId": "part-52027046-ca08-4830-bfc7-d8793bea54aa",
+        "status": "ACTIVE"
+      },
+      "id": "log-9429e137-95f7-4c52-81df-20e465d6c3c6",
+      "createdAt": "2026-09-21T07:01:08.126Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-62961580-99c2-42c5-9209-57db78f05d8c",
+      "createdAt": "2026-09-21T07:01:08.089Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno (Offline Sync)",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-db275ced-8822-437c-bb6b-b7752a7a78dc",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000024",
+        "participantName": "Joseph Kamau",
+        "method": "NFC",
+        "deviceId": "BSC-EVENT-01"
+      },
+      "id": "log-5033cf8c-05d2-48d8-bc2a-c9a2c466e7bb",
+      "createdAt": "2026-09-21T07:01:01.597Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno (Offline Sync)",
+      "action": "PARTICIPANT_REGISTERED",
+      "entityType": "REGISTRATION",
+      "entityId": "reg-ea9ff680-0f2b-418e-80da-7f633c93d81d",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantId": "part-d65fccf9-9cc2-4ba8-a75f-6c5c11982c87",
+        "registrationCode": "BSC-EVT-000024"
+      },
+      "id": "log-0e288ab7-a399-4060-894a-60780467648f",
+      "createdAt": "2026-09-21T07:01:01.597Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-7292d373-26e2-4930-9fe9-916909170b99",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000023",
+        "participantName": "Teresa Ndung'u",
+        "method": "NFC",
+        "deviceId": "BSC-EVENT-01"
+      },
+      "id": "log-b924ec31-ef79-446f-870e-5c1ba37a2d09",
+      "createdAt": "2026-09-21T07:01:01.577Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "PARTICIPANT_REGISTERED",
+      "entityType": "REGISTRATION",
+      "entityId": "reg-defff544-35ba-4112-95a9-75eb00e2ae9b",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantId": "part-f93c0fa8-566a-422a-b0ee-5f53e6a1fb81",
+        "registrationCode": "BSC-EVT-000023"
+      },
+      "id": "log-df8e0604-a9e2-492c-9280-d9a4dfe757b4",
+      "createdAt": "2026-09-21T07:01:01.576Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-2ee9fdb0-a811-41bc-81f6-1ba1585a3341",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000028",
+        "participantId": "part-d65fccf9-9cc2-4ba8-a75f-6c5c11982c87",
+        "status": "ACTIVE"
+      },
+      "id": "log-f04aae3b-c9ed-4797-a4f0-5f262be29ee6",
+      "createdAt": "2026-09-21T07:01:01.566Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-aec6647c-8288-4a2b-a7f6-7b1d5fd7628e",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000027",
+        "participantId": "part-f93c0fa8-566a-422a-b0ee-5f53e6a1fb81",
+        "status": "ACTIVE"
+      },
+      "id": "log-22e6e710-2338-4703-863d-1ac30fd1c0fc",
+      "createdAt": "2026-09-21T07:01:01.557Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-9996dbfb-e050-4281-929b-1190b23939b7",
+      "createdAt": "2026-09-21T07:01:01.505Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-786290ad-471d-46a6-8fc5-5bfe552d8f0f",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000026",
+        "participantId": "part-002",
+        "status": "ACTIVE"
+      },
+      "id": "log-ce4fb77b-e12f-45d3-aac8-8dece6c213bd",
+      "createdAt": "2026-09-21T07:00:32.468Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-6d59fed7-cc08-4548-a6cb-5d50d006e97b",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000025",
+        "participantId": "part-001",
+        "status": "ACTIVE"
+      },
+      "id": "log-96e379bc-2b26-4c83-a9ad-90d4e0060884",
+      "createdAt": "2026-09-21T07:00:32.462Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-e63f8922-5cfe-4725-9242-95013393feb7",
+      "createdAt": "2026-09-21T07:00:32.433Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-a892ba73-2777-42fd-afb9-2d2971b1e0b4",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000024",
+        "participantId": "part-002",
+        "status": "ACTIVE"
+      },
+      "id": "log-a08d61da-ffaf-4390-afe3-d3d16c417501",
+      "createdAt": "2026-09-21T07:00:23.096Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-948bde0c-b105-4131-9e99-163eb6e21b93",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000023",
+        "participantId": "part-001",
+        "status": "ACTIVE"
+      },
+      "id": "log-08c1dec3-bd9d-4f1c-95e4-50e07fa2791c",
+      "createdAt": "2026-09-21T07:00:23.089Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-58ead7d1-947f-4bed-a4db-19d3704ce437",
+      "createdAt": "2026-09-21T07:00:23.058Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-c15bcadc-4a85-4291-8f83-245ac94248a1",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000022",
+        "participantId": "part-002",
+        "status": "ACTIVE"
+      },
+      "id": "log-99defc69-85e9-435f-8195-c909a86e32e7",
+      "createdAt": "2026-09-21T07:00:15.011Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-1c527ad9-33cf-434e-9d57-4987cf18824d",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000021",
+        "participantId": "part-001",
+        "status": "ACTIVE"
+      },
+      "id": "log-ba59c64a-61d6-47a6-b16d-a4da0d646a3d",
+      "createdAt": "2026-09-21T07:00:15.006Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-6e64fc63-a84e-4a66-a316-23a352d0b82c",
+      "createdAt": "2026-09-21T07:00:14.978Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-7c41805c-f3f8-4111-b02d-b3c2eb12c5f8",
+      "createdAt": "2026-09-21T06:59:25.543Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno (Offline Sync)",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-afe8f99a-3b34-4f62-833f-db5cc2741a3d",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000022",
+        "participantName": "TestOffline SyncQueue",
+        "method": "NFC",
+        "deviceId": "BSC-HANDHELD-2102"
+      },
+      "id": "log-1d5e4288-694e-471f-ae25-3d252a22c3d0",
+      "createdAt": "2026-09-21T06:37:22.181Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-668f7652-8140-4f82-862d-665a4c7532f3",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000020",
+        "participantId": "part-f628cd53-ccea-4923-8064-e53713c6b43d",
+        "status": "ACTIVE"
+      },
+      "id": "log-e97e15a3-540b-4635-a225-aa43e54f353c",
+      "createdAt": "2026-09-21T06:37:22.175Z"
+    },
+    {
+      "action": "PARTICIPANT_REGISTERED",
+      "entityType": "REGISTRATION",
+      "entityId": "reg-04f11b14-21ed-41b0-a55b-9d033630ff79",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantId": "part-f628cd53-ccea-4923-8064-e53713c6b43d",
+        "registrationCode": "BSC-EVT-000022"
+      },
+      "id": "log-2cbb470c-2dbc-4447-8428-421e626e0f26",
+      "createdAt": "2026-09-21T06:37:22.172Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-717ca029-0b04-4c46-9ffa-03f75fce5952",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000021",
+        "participantName": "TestOnline Idempotency",
+        "method": "NFC",
+        "deviceId": "BSC-HANDHELD-2102"
+      },
+      "id": "log-2a46da41-1b28-4209-96a6-45f59038b603",
+      "createdAt": "2026-09-21T06:37:22.132Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-efd1c5e7-e663-48d6-b45e-c94b5fa9cb8a",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000019",
+        "participantId": "part-c724cd54-1785-46e3-8ce7-9104e67c63d3",
+        "status": "ACTIVE"
+      },
+      "id": "log-c13e3203-ca88-4ad6-a5c5-0f7609cb41f1",
+      "createdAt": "2026-09-21T06:37:22.125Z"
+    },
+    {
+      "action": "PARTICIPANT_REGISTERED",
+      "entityType": "REGISTRATION",
+      "entityId": "reg-c0e39115-4bb9-4dbb-a567-3a63db950787",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantId": "part-c724cd54-1785-46e3-8ce7-9104e67c63d3",
+        "registrationCode": "BSC-EVT-000021"
+      },
+      "id": "log-2969c958-33e1-4bcb-806d-d1182ba6cc47",
+      "createdAt": "2026-09-21T06:37:22.119Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "DEVICE_ENROLLED",
+      "entityType": "DEVICE",
+      "entityId": "dev-fe553810",
+      "metadata": {
+        "deviceCode": "BSC-HANDHELD-2102",
+        "deviceName": "NFC Handheld Scanner",
+        "location": "Gate A East"
+      },
+      "id": "log-d5665a8a-2850-4c1b-a168-b176abe39e75",
+      "createdAt": "2026-09-21T06:37:22.106Z"
+    },
+    {
+      "actorUserId": "usr-participant-1",
+      "actorName": "Shelmith Wambui",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-participant-1",
+      "metadata": {
+        "role": "PARTICIPANT",
+        "email": "shelwangui23@gmail.com",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-033b6fe4-a0c6-49a8-9e93-1596da88b00d",
+      "createdAt": "2026-09-21T06:37:22.088Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-9c7c1383-ed61-4138-b1fa-3d05caa47322",
+      "createdAt": "2026-09-21T06:37:22.022Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno (Offline Sync)",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-c88b9d1b-7c24-4c0b-94e9-bbe276031d88",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000137",
+        "participantName": "Mary Wambui",
+        "method": "NFC",
+        "deviceId": "BSC-EVENT-01"
+      },
+      "id": "log-a3d753b3-a09c-48bb-b988-2b1ed79ba9dc",
+      "createdAt": "2026-09-21T06:35:59.875Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-d7ad996a-7ede-4703-aa1f-415f98cb9175",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000018",
+        "participantId": "part-014",
+        "status": "ACTIVE"
+      },
+      "id": "log-21cc3393-af9b-4837-ba3f-b9bda8c3ca0d",
+      "createdAt": "2026-09-21T06:35:59.867Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-3905b014-2bad-4646-8414-87473b0caabd",
+      "createdAt": "2026-09-21T06:35:59.851Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno (Offline Sync)",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-c27ced4d-90a6-4fad-96b6-f857b906108f",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000136",
+        "participantName": "James Mwiti",
+        "method": "NFC",
+        "deviceId": "BSC-HANDHELD-2131"
+      },
+      "id": "log-806d5a7e-e21d-4358-b090-cc0c2ff24c2d",
+      "createdAt": "2026-09-21T06:35:52.200Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-ed3d7030-591f-4e99-9588-d4133747864a",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000017",
+        "participantId": "part-013",
+        "status": "ACTIVE"
+      },
+      "id": "log-bbdbc6ae-96b4-4c7e-bd25-ea851268545e",
+      "createdAt": "2026-09-21T06:35:52.192Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-c40807ac-bbee-4979-ae02-1bfb38a7fc7a",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000135",
+        "participantName": "Esther Nduta",
+        "method": "NFC",
+        "deviceId": "BSC-HANDHELD-2131"
+      },
+      "id": "log-3537663c-b9bd-44f8-88bc-5957a88f3585",
+      "createdAt": "2026-09-21T06:35:52.154Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-a51435c2-dfe1-44c6-b776-4d7ac03fb820",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000016",
+        "participantId": "part-012",
+        "status": "ACTIVE"
+      },
+      "id": "log-478ea62a-ecf7-4111-983b-b1f39b81a9a6",
+      "createdAt": "2026-09-21T06:35:52.144Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "DEVICE_ENROLLED",
+      "entityType": "DEVICE",
+      "entityId": "dev-7ac91731",
+      "metadata": {
+        "deviceCode": "BSC-HANDHELD-2131",
+        "deviceName": "NFC Handheld Scanner",
+        "location": "Gate A East"
+      },
+      "id": "log-a337e76b-ee1f-4aa4-ad5e-361341cf9b24",
+      "createdAt": "2026-09-21T06:35:52.136Z"
+    },
+    {
+      "actorUserId": "usr-participant-1",
+      "actorName": "Shelmith Wambui",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-participant-1",
+      "metadata": {
+        "role": "PARTICIPANT",
+        "email": "shelwangui23@gmail.com",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-1cddd991-a4d2-49cf-9b6d-30558f4f0435",
+      "createdAt": "2026-09-21T06:35:52.118Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-0c301a33-12ea-418c-a845-ca5fd3890631",
+      "createdAt": "2026-09-21T06:35:52.054Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-e33c1a7a-076f-41fd-84c1-0f5e12a36aa0",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000134",
+        "participantName": "David Kariuki",
+        "method": "NFC",
+        "deviceId": "BSC-EVENT-01"
+      },
+      "id": "log-76c2ec63-ee38-46e2-86a5-9fa924a1fc5a",
+      "createdAt": "2026-09-21T06:33:57.746Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-1551578d-262b-4c7b-a285-ebede6af724d",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000015",
+        "participantId": "part-011",
+        "status": "ACTIVE"
+      },
+      "id": "log-2cbdc849-df4c-496b-8e2a-927d8c0cc8a8",
+      "createdAt": "2026-09-21T06:33:57.739Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-3858b1d6-3d72-4aae-beb5-db545d0263b5",
+      "createdAt": "2026-09-21T06:33:57.724Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-30729c3a-05d0-4283-8cea-e85bb5d7216f",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000014",
+        "participantId": "part-010",
+        "status": "ACTIVE"
+      },
+      "id": "log-0355fa74-4ac5-4493-b647-79c86c49d469",
+      "createdAt": "2026-09-21T06:33:50.688Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-4059a7d9-911c-48d7-9b23-d9bfba1d4193",
+      "createdAt": "2026-09-21T06:33:50.672Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-64c1cb5d-d0c5-47c2-a87c-5e244c5a6ef6",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000013",
+        "participantId": "part-010",
+        "status": "ACTIVE"
+      },
+      "id": "log-20b7c6c0-5b05-45ed-a61f-6601db285338",
+      "createdAt": "2026-09-21T06:33:44.347Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "USER_LOGIN",
+      "entityType": "USER",
+      "entityId": "usr-operator-1",
+      "metadata": {
+        "role": "CHECK_IN_OPERATOR",
+        "email": "operator@example.test",
+        "deviceId": "WEB_OR_HANDHELD"
+      },
+      "id": "log-4a18f468-8d3c-4832-a933-2e7e8273b2d4",
+      "createdAt": "2026-09-21T06:33:44.330Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "NFC Entrance Reader",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-98b6b229-f11b-4c7d-900f-3c9045107fff",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000133",
+        "participantName": "Grace Achieng",
+        "method": "NFC",
+        "deviceId": "dev-001"
+      },
+      "id": "log-fc7fe4d2-5d24-4ead-8619-3ea3835d0afd",
+      "createdAt": "2026-09-16T12:31:28.495Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-49356f5b-4a17-4c29-af47-314a0b4bf175",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000012",
+        "participantId": "part-010",
+        "status": "ACTIVE"
+      },
+      "id": "log-d990a196-a75c-469d-aaa1-114f5acd3f55",
+      "createdAt": "2026-09-16T12:31:28.479Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "NFC Entrance Reader",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-a5637b01-55d4-4bd2-aa93-2f450f36b009",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000131",
+        "participantName": "Faith Wanjiku",
+        "method": "NFC",
+        "deviceId": "dev-001"
+      },
+      "id": "log-eef3f81b-643a-4e1d-b250-38ebcdeaa3d5",
+      "createdAt": "2026-09-16T12:31:17.469Z"
+    },
+    {
+      "action": "CARD_ISSUED_AND_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-5a0dd3d8-c424-4d44-9e85-de0e8eafbeee",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000011",
+        "participantId": "part-008",
+        "status": "ACTIVE"
+      },
+      "id": "log-f2716429-74d5-44b9-8880-5641a585278c",
+      "createdAt": "2026-09-16T12:31:17.451Z"
+    },
+    {
+      "actorUserId": "usr-operator-1",
+      "actorName": "NFC Entrance Reader",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-36d24902-1c3f-44bc-8220-29573e03eead",
+      "metadata": {
+        "eventId": "evt-001",
+        "participantNumber": "BSC-000124",
+        "participantName": "Shelmith Wambui",
+        "method": "NFC",
+        "deviceId": "BSC-EVENT-01"
+      },
+      "id": "log-06191cc1-4f86-4fff-a3ee-0e166be242f7",
+      "createdAt": "2026-09-16T09:04:09.860Z"
+    },
+    {
+      "id": "log-001",
+      "actorUserId": "usr-admin-1",
+      "actorName": "Shelmith Wambui",
+      "action": "EVENT_CREATED",
+      "entityType": "EVENT",
+      "entityId": "evt-001",
+      "metadata": {
+        "title": "YSC Annual Parish Sports Day 2026",
+        "code": "YSC-SPORT-2026"
+      },
+      "ipAddress": "197.232.61.12",
+      "createdAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "id": "log-002",
+      "actorUserId": "usr-admin-1",
+      "actorName": "Shelmith Wambui",
+      "action": "CARD_ASSIGNED",
+      "entityType": "NFC_CARD",
+      "entityId": "card-001",
+      "metadata": {
+        "cardNumber": "BSC-CARD-000124",
+        "participant": "Shelmith Wambui"
+      },
+      "ipAddress": "197.232.61.12",
+      "createdAt": "2026-09-05T09:00:00Z"
+    },
+    {
+      "id": "log-003",
+      "actorUserId": "usr-operator-1",
+      "actorName": "Brian Otieno",
+      "action": "NFC_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-001",
+      "metadata": {
+        "participant": "Brian Mwangi",
+        "event": "YSC Sports Day",
+        "method": "NFC"
+      },
+      "ipAddress": "10.0.4.12",
+      "createdAt": "2026-09-20T08:14:00Z"
+    },
+    {
+      "id": "log-004",
+      "actorUserId": "usr-admin-1",
+      "actorName": "Shelmith Wambui",
+      "action": "MANUAL_CHECK_IN",
+      "entityType": "EVENT_ATTENDANCE",
+      "entityId": "att-004",
+      "metadata": {
+        "participant": "Francis Ochieng",
+        "notes": "Registration desk lookup"
+      },
+      "ipAddress": "10.0.4.15",
+      "createdAt": "2026-09-20T09:05:00Z"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Blessed Sacrament NFC Event Check-In",
+  "description": "NFC Event Management and Attendance Check-In System for Blessed Sacrament Catholic Parish, Buru-Phase III, Nairobi.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
